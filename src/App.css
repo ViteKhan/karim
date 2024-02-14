@@ -1,0 +1,54 @@
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.valentine-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.yes-button {
+  background-color: #a7efb8;
+  color: black;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 8px;
+  margin-right: 8px;
+}
+
+@media (hover: hover) {
+  .yes-button:hover {
+    background-color: #4f7457;
+    cursor: pointer;
+  }
+  .no-button:hover {
+    background-color: #c82333;
+    cursor: pointer;
+  }
+}
+
+@media (hover: none) {
+  .yes-button:active {
+    background-color: #4f7457;
+  }
+  .no-button:active {
+    background-color: #c82333;
+  }
+}
+
+.no-button {
+  background-color: #c90d0d;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+
+.text-container {
+  text-align: center;
+}
